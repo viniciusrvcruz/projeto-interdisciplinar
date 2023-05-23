@@ -4,45 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crie sua conta</title>
     <link rel="shortcut icon" href="Icons/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/cadastro.css">
-    <link rel="stylesheet" href="css/media-query-cadastro.css">
+    <title>Bem vindo</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media-query-index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">
-            <img src="Icons/logo_icon.png" alt="Logo">
-        </a>
-        <a href="#"><button class="login">Login</button></a>
+    <header class="header">
+        <div class="logo-nav">
+            <a href="#" class="logo">
+                <img src="Icons/logo_icon.png" alt="Logo">
+            </a>
+            <nav class="nav">
+                <ul class="ul">
+                    <li class="li">Início</li>
+                    <li class="li">Treino</li>
+                    <li class="li">Repertório</li>
+                    <li class="li">Grupo</li>
+                    <li class="li">Gravar</li>
+                </ul>
+            </nav>
+        </div>
+        <section class="search-user">
+            <div class="pesquisar">
+                <input type="text" name="pesquisar" id="pesquisar" placeholder="Pesquisar">
+            </div>
+            <div class="user">
+            </div>
+        </section>
     </header>
-    <main>
-        <form>
-            <h1>Crie sua conta</h1>
-            <input type="text" name="nome" id="nome" placeholder="Nome de usúario" required>
-            <input type="email" name="email" id="email" placeholder="E-mail" required>
-            <input type="password" name="senha" id="senha" placeholder="Senha" required>
-            <button class="btn-entrar">Entrar</button>
-            <div class="ou">
-                <div class="traco"></div>
-                <p>Ou</p>
-                <div class="traco"></div>
-            </div>
-            <div class="google-apple-facebook">
-                <button>
-                    <img src="Icons/google_icon.png" alt="Google">
-                </button>
-                <button>
-                    <img src="Icons/apple_icon.png" alt="Apple">
-                </button>
-                <button>
-                    <img src="Icons/facebook_icon.png" alt="Facebook">
-                </button>
-            </div>
-        </form>
-    </main>
 </body>
 </html>

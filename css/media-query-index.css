@@ -1,0 +1,32 @@
+@media screen and (max-width: 925px) {
+    .header {
+        padding: 10px 20px;
+    }
+    
+    
+    .nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        border-top: 1px solid black;
+    }
+    
+    .ul {
+        display: flex;
+        justify-content: space-between;
+        font-size: .7em;
+    }
+
+    .ul .li {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .pesquisar {
+        display: none;
+    }
+}
