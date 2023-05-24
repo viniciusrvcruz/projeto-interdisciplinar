@@ -12,7 +12,7 @@
     .logo-nav .inicio img {
         display: flex;
         width: 30px;
-        padding-top: 10px;
+        padding-top: 5px;
         border-top: 4px solid #3987c2;
     }
     
@@ -29,7 +29,7 @@
         bottom: 0;
         left: 0;
         width: 100%;
-        padding: 0px 20px 18px 20px;
+        padding: 0px 10% 14px;
         border-top: 1px solid rgba(0, 0, 0, 0.24);
     }
     
@@ -37,6 +37,11 @@
         display: flex;
         justify-content: space-between;
         font-size: .7em;
+        color: rgba(0, 0, 0, 0.493);
+    }
+
+    .inicio {
+        color: black;
     }
 
     .ul .li {
@@ -44,9 +49,17 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 473px) {
 
     .pesquisar {
         display: none;
+    }
+
+    .nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0px 20px 12px;
     }
 }
