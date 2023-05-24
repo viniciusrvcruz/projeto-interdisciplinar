@@ -48,6 +48,10 @@ header {
     align-items: center;
 }
 
+.logo-nav ul img {
+    display: none;
+}
+
 .logo-nav ul li {
     list-style-type: none;
     margin-right: 1.2em;

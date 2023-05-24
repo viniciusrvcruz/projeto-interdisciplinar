@@ -2,15 +2,35 @@
     .header {
         padding: 10px 20px;
     }
+
+    .logo-nav ul img {
+        display: flex;
+        width: 30px;
+        padding-top: 10px;
+    }
+
+    .logo-nav .inicio img {
+        display: flex;
+        width: 30px;
+        padding-top: 10px;
+        border-top: 4px solid #3987c2;
+    }
     
-    
+    .logo-nav ul div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translate(0px, -2px);
+    }
+
     .nav {
         position: fixed;
         bottom: 0;
         left: 0;
         width: 100%;
-        padding: 20px;
-        border-top: 1px solid black;
+        padding: 0px 20px 18px 20px;
+        border-top: 1px solid rgba(0, 0, 0, 0.24);
     }
     
     .ul {
