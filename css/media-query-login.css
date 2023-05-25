@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 12px 30px;
+    }
+
+    .logo img {
+        width: 55px;
+    }
+
+    .criar-conta {
+        padding: 7px 20px;
+    }
+
+    main {
+        padding: 0px 30px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .traco {
+        width: 41%;
+    }
+    
+    .google-apple-facebook {
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .google-apple-facebook button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+    }
+    
+    .google-apple-facebook img {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .google-apple-facebook {
+        flex-direction: column;
+    }
+    
+    .google-apple-facebook button {
+        display: flex;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
