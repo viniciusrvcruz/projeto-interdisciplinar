@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Icons/favicon.ico" type="image/x-icon">
-    <title>Bem vindo</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/media-query-index.css">
+    <title>Grupo</title>
+    <link rel="stylesheet" href="css/grupo.css">
+    <link rel="stylesheet" href="css/media-query-grupo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="js/grupo.js" defer></script>
     <script src="js/index.js" defer></script>
 </head>
 <body>
@@ -21,7 +23,7 @@
             </a>
             <nav class="nav">
                 <ul class="ul">
-                    <div class="inicio">
+                    <div class="inicio" onclick="location.href='index.html'">
                         <img src="Icons/home_fill_icon.png" alt="Home">
                         <li class="li">Início</li>
                     </div>
@@ -33,7 +35,7 @@
                         <img src="Icons/library_books_icon.png" alt="Repertório">
                         <li class="li">Repertório</li>
                     </div>
-                    <div class="grupo" onclick="location.href='tela-grupo.html'">
+                    <div class="grupo">
                         <img src="Icons/group_icon.png" alt="Grupo">
                         <li class="li">Grupo</li>
                     </div>
@@ -74,9 +76,39 @@
         </section>
     </header>
     <main>
+        <h1>Criar um grupo ou entrar nele </h1>
         <section>
-            
+            <div class="criar-grupo">
+                <h3>Criar um grupo</h3>
+                <div class="img-container"><img src="Icons/image_photo_icon.png" alt="imagem"></div>
+                <button><span class="material-symbols-outlined">group_add</span>Criar grupo</button>
+            </div>
+            <div class="entrar-em-um-grupo">
+                <h3>Entrar em um<br>grupo</h3>
+                <div class="img-container"><img src="Icons/users_group_icon.png" alt="grupo"></div>
+                <input type="text" name="codigo" id="codigo" placeholder="Inserir código">
+            </div>
         </section>
+        <div class="criar-grupo-modal">
+            <div class="criar-grupo-container">
+                <h2>Criar um grupo</h2>
+                <form>
+                    <label for="nome-grupo">Nome do grupo</label>
+                    <input type="text" name="nome-grupo" id="nome-grupo" placeholder="Digite o nome do grupo">
+                    <label for="descricao">Descrição</label>
+                    <textarea name="descricao" id="descricao" rows="3" placeholder="Informe aos membros a finalidade do grupo"></textarea>
+                    <label for="privacidade">Privaciadade</label>
+                    <select name="privacidade" id="privacidade">
+                        <option value="grupo-privado">Grupo privado - Somente administradores poderão adicionar membros</option>
+                        <option value="grupo-privado">Equipe Pública - Qualquer pessoa da organização pode ingressar</option>
+                    </select>
+                    <div class="buttons">
+                        <button class="cancelar">Cancelar</button>
+                        <button class="proximo">Próximo</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </main>
 </body>
 </html>
