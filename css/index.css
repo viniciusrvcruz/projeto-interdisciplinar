@@ -180,3 +180,152 @@ header input::placeholder {
     color: black;
 }
 
+main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 15%;
+}
+
+.tela-progresso {
+
+    width: 100%;
+    background-color: #E4E4E4;
+    display: flex;
+    border-radius: 0.8em;
+    margin-top: 4em;
+    box-shadow: 0.1em 0.2em 0.2em rgba(0, 0, 0, 0.120);
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: space-between;
+    padding: 1.9em 1.9em 0px;
+}
+
+.mensagem-contagem{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.bomdia h2{
+    font-size: 2.3em;
+    border: 0.2em;
+    display: flex;
+}
+
+.contagem-treino{
+    font-size: 20px;
+    text-align: center;
+    padding: 0.3em;
+    margin: 0.3em;
+    display: flex;
+    flex-direction: row;
+}
+.contagem-treino h3{
+    font-size: 1em;
+    padding: 0em 0.2em 0.7em;
+}
+
+.contagem-treino span{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.traco{
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    height: 100%;
+    margin: 0em 1em;
+}
+
+.progresso-semanal {
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+    transform: translate(0px, -35px);
+}
+
+.progresso-semanal h3 {
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+.semana{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.1em 1.1em 0px;
+    font-size: 0.8em;
+    text-align: center
+}
+
+.barra-progresso{
+    background-color: white;
+    width: 7em;
+    margin: 1em 1em 0px;
+    padding: 0.3em;
+    border-radius: 1.6em;
+}
+
+.opcoes-main{
+    width: 100%;
+    height: 14em;
+    background-color:  white;
+    display: flex;
+    border-radius: 0.8em;
+    margin-top: 2.3em;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.quadro-opcao{
+    width: 28%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #E4E4E4;
+    display: flex;
+    border-radius: 1em;
+    flex-direction: column;
+    box-shadow: 0.1em 0.2em 0.2em rgba(0, 0, 0, 0.120);
+    cursor: pointer;
+}
+
+.nome-opcao{
+    align-items: center;
+    justify-content: center;
+    padding: 0.8em;
+}
+
+.opcao-imagem{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 1em;
+    background-color: #F5F5F5;
+}
+
+.opcao-imagem img {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.opcao-imagem .imagem img {
+    height: 90px;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+    padding: 30px 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.226);
+}
