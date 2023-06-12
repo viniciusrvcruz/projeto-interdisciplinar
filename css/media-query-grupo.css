@@ -60,6 +60,10 @@
         margin-left: 0px;
         margin-bottom: 5em;
     }
+
+    footer p {
+        margin: 0px 20px;
+    }
 }
 
 @media screen and (max-width: 473px) {

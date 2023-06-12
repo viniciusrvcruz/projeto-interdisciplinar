@@ -40,6 +40,10 @@
     .google-apple-facebook img {
         width: 40px;
     }
+
+    footer p {
+        margin: 0px 40px;
+    }
 }
 
 @media screen and (max-width: 290px) {
